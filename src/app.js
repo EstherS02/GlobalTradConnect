@@ -23,6 +23,8 @@ app.post('/api/users',(req,res)=>{
     });
 });
 
+// This is landing page
+
 app.get('', (req,res)=>{
     res.send({
         "task-manger":"home page"
