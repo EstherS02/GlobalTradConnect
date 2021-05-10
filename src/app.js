@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(bodyParser.json());
 
-// CRUD operation for user table
+// CRUD operation
 
 app.post('/api/users',(req,res)=>{
     var user = new User(req.body);
